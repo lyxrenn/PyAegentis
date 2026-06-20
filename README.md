@@ -2,23 +2,20 @@
 Python source protector for encrypting and protecting your applications, turning .py files into encrypted runtime packages with pyd output and PyInstaller EXE support.
 
 > **Version:** 0.3.0 · **Platform:** Windows x64 · **Python:** 3.12  
-> **License:** Proprietary - not open source. Authorized access only.
+> **License:** Proprietary - not open source.
 
 ---
 
 ## Overview
 
-Aegentis Protector (PyAegentis) is a build-time protection utility for Python applications.
+Aegentis Protector (PyAegentis) is a build-time protection tool for Python applications.
 
 The tool:
 
-- Compiles `.py` source into **AEGBC** (custom bytecode container)
-- Encrypts payload with sharded AES-GCM (**AEGSH** format)
-- Seals runtime modules inside an encrypted vault (no plain `.py` on disk)
-- Builds **facade** + **native** `.pyd` pair per protect run
-- Embeds master key in native pyd (release mode)
-- Optionally packs output with **PyInstaller onefile EXE**
-- Supports external hardening (e.g. **Themida** on native pyd)
+- .py source code and converts it into a distribution-ready package
+- Encrypts your code; leaves no readable source code on disk
+- Can generate an optional single-file EXE
+- Is compatible with additional layers of protection in release builds (Themida, etc...)
 
 ---
 
