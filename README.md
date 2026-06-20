@@ -1,2 +1,2 @@
-# PyAegentis
+# PyAegentis - Aegentis Protector
 A Python source protector for encrypting scripts into AEGBC bytecode and, optionally, PyInstaller EXE builds.
