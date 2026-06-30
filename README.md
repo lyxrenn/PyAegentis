@@ -1,7 +1,7 @@
 # Aegentis Protector / PyAegentis
 Python source protector for encrypting and protecting your applications, turning .py files into encrypted runtime packages with pyd output and PyInstaller support.
 
-- **Version:** 1.5
+- **Version:** 1.3
 
 - **License:** Proprietary - not open source.
 
